@@ -3,7 +3,7 @@ import Footer from "../assets/components/footer/Footer"
 import PageNameBorder from "../assets/components/pageNameBorder/PageNameBorder";
 import NavBar from "../assets/components/navbar/NavBar"
 
-
+/* Product images not shown on deployed page !!!! */
 
 
 const Products = () => {
