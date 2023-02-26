@@ -11,6 +11,6 @@ const PageNameBorder = (props) => {
             </h2>
         </section>
     );
-}
+};
 
 export default PageNameBorder;

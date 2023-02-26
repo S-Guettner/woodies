@@ -10,7 +10,7 @@ const ProductPage = () => {
     
     const params = useParams()
     
-    if(params.name === "Jenson"){
+    if(params.name === "jenson"){
         return (
             <div className="flex flex-col justify-between h-screen">
                 <NavBar />
@@ -19,7 +19,7 @@ const ProductPage = () => {
                 <Footer />
             </div>
         );
-    }else if(params.name === "Deon"){
+    }else if(params.name === "deon"){
         return (
             <div className="flex flex-col justify-between h-screen">
                 <NavBar />
@@ -28,7 +28,7 @@ const ProductPage = () => {
                 <Footer />
             </div>
         );
-    }else if(params.name === "Krisha"){
+    }else if(params.name === "krisha"){
         return (
             <div className="flex flex-col justify-between h-screen">
                 <NavBar />
