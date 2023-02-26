@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../assets/components/footer/Footer"
 
+
 const Products = () => {
     return (
         <div>

@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import Jenson from "../assets/components/products/Jenson";
 import Deon from "../assets/components/products/Deon";
 import Krisha from "../assets/components/products/Krisha";
-
+import Footer from "../assets/components/footer/Footer";
 
 const ProductPage = () => {
     
@@ -10,15 +10,24 @@ const ProductPage = () => {
     
     if(params.name === "Jenson"){
         return ( 
-            <Jenson />
+            <>
+                <Jenson />
+                <Footer />            
+            </>
         )
     }else if(params.name === "Deon"){
-        return(
-            <Deon />
-        )
+        return (
+            <>
+                <Deon />
+                <Footer />
+            </>
+        );
     }else if(params.name === "Krisha"){
         return(
-            <Krisha />
+            <>
+                <Krisha />
+                <Footer />
+            </>
         )
     }
 }
