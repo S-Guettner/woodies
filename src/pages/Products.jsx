@@ -16,7 +16,7 @@ const Products = () => {
                     pageTitle={"PRODUCTS"}
                 />
             </div>
-            <main className="flex justify-around flex-wrap h-[25rem]">
+            <main className="flex justify-around flex-wrap h-[25rem] px-48">
                 <div className="pb-6 flex justify-center bg-center w-1/3 bg-no-repeat bg-[url('../../src/images/Tisch.png')]">
                     <h1 className="pt-4 pr-24 font-bold text-lg">Jenson</h1>
                     <Link
@@ -27,7 +27,7 @@ const Products = () => {
                     </Link>
                 </div>
                 <div className="pb-6 flex justify-center bg-center w-1/3  bg-no-repeat bg-[url('../../src/images/Stuhl.png')]">
-                    <h1 className="pt-4 pr-24 font-bold text-lg" >Deon</h1>
+                    <h1 className="pt-4 pr-24 font-bold text-lg">Deon</h1>
                     <Link
                         className="p-2 bg-[#DAA520] mt-auto text-white rounded-md"
                         to="/products/Deon"
@@ -36,7 +36,7 @@ const Products = () => {
                     </Link>
                 </div>
                 <div className="pb-6 flex justify-center bg-center w-1/3  bg-no-repeat bg-[url('../../src/images/Schuesseln.png')]">
-                    <h1 className="pt-4 pr-24 font-bold text-lg" >Krisha</h1>
+                    <h1 className="pt-4 pr-24 font-bold text-lg">Krisha</h1>
                     <Link
                         className="p-2 bg-[#DAA520] mt-auto text-white rounded-md"
                         to="/products/Krisha"
