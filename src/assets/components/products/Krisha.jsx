@@ -7,7 +7,7 @@ const Krisha = () => {
                 <img src={KrishaImg} alt="Schuesseln" />
             </div>
             <div className="ml-8 w-80 flex items-center justify-center">
-                <p className=" text-xl">
+                <p className=" text-xl font-semibold">
                     Krisha demonstrates what designer Tim Fenby does best. Clean
                     lines, subtle curves and an oak finish nail this season's
                     trends. Boomerang legs add serious style points – not that
