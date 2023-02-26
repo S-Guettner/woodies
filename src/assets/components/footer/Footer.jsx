@@ -4,7 +4,7 @@ import logo from '../../../images/Logo.png';
 const Footer = () => {
     return (
         <footer className="bg-[#F1F1F1] relative">
-            <div className=" absolute left-20 top-12 h-[.1rem] bg-neutral-300 w-2/3 text-[#8D8D8D]" />
+            <div className="absolute left-20 top-12 h-[.1rem] bg-neutral-300 w-2/3 text-[#8D8D8D]" />
             <section className="flex justify-between h-[25vh] pt-12 pl-20 ">
                 <div className="h-[.1rem] w-1/3 text-[#8D8D8D]">
                     <img className="pt-6 w-40 mb-3" src={logo} alt="logo" />
