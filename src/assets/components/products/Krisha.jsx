@@ -1,10 +1,10 @@
-import KrishaImg from "../../../../public/images/Schuesseln.png";
+import KrishaImg from "../../../images/Schuesseln.png";
 
 const Krisha = () => {
     return (
         <section className="flex justify-center items-center px-40">
             <div className="mr-8 flex justify-center w-64">
-                <img src={KrishaImg} alt="Tisch" />
+                <img src={KrishaImg} alt="Schuesseln" />
             </div>
             <div className="ml-8 w-80 flex items-center justify-center">
                 <p className=" text-xl">

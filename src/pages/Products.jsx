@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../assets/components/footer/Footer"
 
 const Products = () => {
     return (
@@ -11,6 +12,7 @@ const Products = () => {
             <Link to='/products/Deon'>Shop now</Link>
             <h1>Krisha</h1>
             <Link to='/products/Krisha'>Shop now</Link>
+            <Footer />
         </div>
     );
 }

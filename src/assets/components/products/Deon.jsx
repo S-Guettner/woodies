@@ -1,7 +1,9 @@
-import DeonImg from "../../../../public/images/Stuhl.png";
+import DeonImg from "../../../images/Stuhl.png";
 
 const Deon = () => {
     return (
+
+        
         <section className="flex justify-center items-center px-40">
             <div className="mr-8 flex justify-center w-64">
                 <img src={DeonImg} alt="Stuhl" />

@@ -1,4 +1,4 @@
-import JensonImg from '../../../../public/images/Tisch.png'
+import JensonImg from '../../../images/Tisch.png'
 
 const Jenson = () => {
     return (
