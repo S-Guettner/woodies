@@ -6,10 +6,11 @@ const Home = () => {
     return (
         <section id="homeBackground" className=" h-screen">
             <NavBar />
-            <main className="flex pt-44">
-                <article className="pl-20 pt-10">
-                    <p className="text-2xl">
-                        Are you looking for woodden furniture for your place?
+            <main className="flex justify-center pt-20">
+                <article className="pl-20 pt-24 w-1/3">
+                    <p className="text-3xl">
+                        Are you looking for <span className="font-semibold">woodden furniture </span> for
+                        your place?
                     </p>
                     <h2 className="text-7xl leading-tight mb-10">
                         This is the Right Place
@@ -21,7 +22,7 @@ const Home = () => {
                         Explore Categories
                     </Link>
                 </article>
-                <img className="w-1/2" src={image} alt="" />
+                <img className="w-86 ml-10" src={image} alt="" />
             </main>
         </section>
     );
