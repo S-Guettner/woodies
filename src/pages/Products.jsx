@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../assets/components/footer/Footer"
 import PageNameBorder from "../assets/components/pageNameBorder/PageNameBorder";
 import NavBar from "../assets/components/navbar/NavBar"
-import jensonImg from "../images/Tisch.png"
-/* Product images not shown on deployed page !!!! */
-/* Because img not imported on top */
+
 
 const Products = () => {
     return (
