@@ -8,9 +8,8 @@ import ProductPage from "./pages/ProductPage.jsx";
 function App() {
 
   return (
-    <div className="">
+    <div>
         <BrowserRouter>
-        {/* <NavBar /> */}
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="/about" element={<About />}/>

@@ -8,9 +8,12 @@ const Home = () => {
             <NavBar />
             <main className="flex justify-center pt-20">
                 <article className="pl-20 pt-24 w-1/3">
-                    <p className="text-3xl">
-                        Are you looking for <span className="font-semibold">woodden furniture </span> for
-                        your place?
+                    <p className="text-3xl font-[nunito]">
+                        Are you looking for{" "}
+                        <span className="font-semibold">
+                            woodden furniture{" "}
+                        </span>{" "}
+                        for your place?
                     </p>
                     <h2 className="text-7xl leading-tight mb-10">
                         This is the Right Place
